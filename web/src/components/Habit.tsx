@@ -16,9 +16,9 @@ export function Habit(props: HabitProps) {
 		// flex = display: flex
 		// items-center = align-items: center
 		// justify-center = justify-content: center
+    // No React utilizamos className em vez de class.
 		<div className="bg-zinc-900 w-10 h-10 text-white rounded m-2 flex items-center justify-center">
 			{props.completed}
 		</div>
-		// No React utilizamos className em vez de class.
 	)
 }

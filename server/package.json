@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "GaSoler",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "@prisma/client": "^5.7.1",
+    "dayjs": "^1.11.10",
+    "fastify": "^4.25.2",
+    "web-push": "^3.6.6",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/web-push": "^3.6.3",
+    "prisma": "^5.7.1",
+    "prisma-erd-generator": "^1.11.2",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  }
+}
